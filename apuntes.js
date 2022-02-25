@@ -30,5 +30,41 @@ Configuracion
 -----
 depuracion
     react deja los errores del la aplicacion, como de logica o uso de contex o props
+-------------------Composicion de Componentes--------------
+Patron para crear componentes, cada componente tine un tarea especifica pero flexible.
+asi los componentes son faciles de implemntar y usar
+
+Podemos usar componentes para renderizar cualquier tipo de dat.
+con una composicion padre e hijo.
+
+colocacion de estado
+    Maxima cercania a la relevancia
+    el estado debe estar cerca de donde lo usamos. el padre mas cercano
+    stateful vs stateless
+    separa componentes entre stateful y stateless.
+
+desde lo mas grande hasta los mas pequeño atomic desing hace match
+
+App
+--todoheader 
+---TodoCounter
+---TodoSearch 
+--Todolist
+---TodoItem
+
+componentes pueden crear su propio estado, ademas del global
+App
+--todoheader 
+---TodoCounter
+---TodoSearch 
+-----TodoIputUI stateless
+--Todolist
+---TodoItem
+----TodoItemUI stateless
+
+Sin react context, podemos usar composicion de componentes
+ la data puede estar en app y compartir a los hijos
+
+ 
 
 */
