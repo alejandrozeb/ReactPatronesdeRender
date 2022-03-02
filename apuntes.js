@@ -65,6 +65,12 @@ App
 Sin react context, podemos usar composicion de componentes
  la data puede estar en app y compartir a los hijos
 
- 
+--------------------Patrones de render y composicion-----------
+render props
+    permite ser mas especificos al realizar la composicion. con data e informacion mas especifica.
+    la funcion es enviada en alguna propiedad.
+render functions
+    funcoin de context, podemos entregar informacion mediante una funcion. asi no se tiene que recibir componentes solo funciones. se envia como children
+
 
 */
