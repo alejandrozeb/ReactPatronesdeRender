@@ -72,5 +72,11 @@ render props
 render functions
     funcoin de context, podemos entregar informacion mediante una funcion. asi no se tiene que recibir componentes solo funciones. se envia como children
 
+---------------high order functions--------------------------
+funciones que devuelven funciones
+high order components
+recibe un compoenente y retorna otro
+
+podemos hacer un wrap de componentes que reusen parametros
 
 */
