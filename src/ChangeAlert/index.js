@@ -1,8 +1,10 @@
 import React from 'react';
 import {withStorageListener} from './withStorageListener'
 
-function ChangeAlert(){
-    return <p>Hubo cambios?</p>;
+function ChangeAlert({show, toggleShow}){
+    if(show){
+        return <p>Hubo cambios?</p>;
+    }
 }
 
 const ChangeAlertWithStorageListener = withStorageListener(ChangeAlert);
