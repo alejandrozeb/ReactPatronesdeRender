@@ -11,6 +11,10 @@ function withStorageListener(WarppedComponent){
             }
         });
 
+        const toggleShow = ()=>{
+            props.sincronize();
+            setStorageChange(false);
+        }
 
         return <WarppedComponent 
                 show={StorageChange}
