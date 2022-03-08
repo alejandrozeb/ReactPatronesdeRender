@@ -1,7 +1,10 @@
 import React from 'react';
+import {withStorageListener} from './withStorageListener'
 
 function ChangeAlert(){
-    return null;
+    return <p>Hubo cambios?</p>;
 }
 
-export{ChangeAlert};
+const ChangeAlertWithStorageListener = withStorageListener(ChangeAlert);
+
+export{ChangeAlertWithStorageListener};
