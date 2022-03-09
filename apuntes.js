@@ -79,4 +79,8 @@ recibe un compoenente y retorna otro
 
 podemos hacer un wrap de componentes que reusen parametros
 
+
+render props son mejores
+
+share data, compartir data con componentes, 
 */
